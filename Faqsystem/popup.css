@@ -1,0 +1,52 @@
+/* Style for the button */
+#openModalBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2a9df4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#openModalBtn:hover {
+    background-color: #1e80b6;
+}
+
+/* Modal Background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: white;
+    margin: 15% auto; /* 15% from the top, centered */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

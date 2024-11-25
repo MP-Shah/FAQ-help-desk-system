@@ -1,0 +1,53 @@
+/* Global styles for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section styling */
+header {
+    background-color: #4f66cce8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    width: 70px; /* Adjust size */
+    height: manual;
+    margin-bottom: 1m;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Content section styling */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+/* Footer section styling */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: hsla(257, 27%, 41%, 0.714);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

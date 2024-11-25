@@ -1,0 +1,35 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #e0f7fa;
+    color: #1d1b1b;
+}
+
+header {
+    background-color: #8f3200;
+    color: white;
+    padding: 20px;
+}
+.logo {
+    width: 70px; /* Adjust size */
+    height: manual;
+    margin-bottom: 1m;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8f2b00d3;
+    font-weight: bold;
+}

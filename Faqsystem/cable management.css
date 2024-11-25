@@ -1,0 +1,34 @@
+body {
+    font-family: 'Georgia', sans-serif;
+    background-color: #fffde7;
+    color: #333;
+}
+
+header {
+    background-color: #a635fd;
+    color: white;
+    padding: 20px;
+}
+.logo {
+    width: 70px; /* Adjust size */
+    height: manual;
+    margin-bottom: 1m;
+}
+
+h1 {
+    margin: 0;
+}
+.content {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #730e7b;
+    font-weight: bold;
+}

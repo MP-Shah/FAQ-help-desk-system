@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e5f5;
+    color: #333;
+}
+
+header {
+    background-color: #8e24aa;
+    color: white;
+    padding: 20px;
+}
+.logo {
+    width: 70px; /* Adjust size */
+    height: manual;
+    margin-bottom: 1m;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8e24aa;
+    font-weight: bold;
+}
